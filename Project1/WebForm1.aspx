@@ -17,8 +17,8 @@
         <p>
             <asp:Button ID="btnSum" runat="server" OnClick="btnSum_Click" Text="+" />
             <asp:Button ID="btnMinus" runat="server" OnClick="btnMinus_Click" Text="-" />
-            <asp:Button ID="Button2" runat="server" Text="Button" />
-            <asp:Button ID="Button3" runat="server" Text="Button" />
+            <asp:Button ID="btnMultiply" runat="server" Text="*" OnClick="btnMultiply_Click" />
+            <asp:Button ID="btnDivide" runat="server" Text="/" OnClick="btnDivide_Click" />
         </p>
         <p>
             <asp:Label ID="Result" runat="server" Text="Result"></asp:Label>

@@ -24,4 +24,16 @@ public partial class WebForm1 : System.Web.UI.Page
         int Minus = Int32.Parse(Num1.Text) - Int32.Parse(Num2.Text);
         Result.Text = Convert.ToString(Minus);
     }
+
+    protected void btnMultiply_Click(object sender, EventArgs e)
+    {
+        int Multiply = Int32.Parse(Num1.Text) * Int32.Parse(Num2.Text);
+        Result.Text = Convert.ToString(Multiply);
+    }
+
+    protected void btnDivide_Click(object sender, EventArgs e)
+    {
+        int Divide = Int32.Parse(Num1.Text) / Int32.Parse(Num2.Text);
+        Result.Text = Convert.ToString(Divide);
+    }
 }
