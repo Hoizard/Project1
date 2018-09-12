@@ -16,6 +16,7 @@ public partial class WebForm1 : System.Web.UI.Page
     {
         int Sum = Int32.Parse(Num1.Text) + Int32.Parse(Num2.Text);
         Result.Text = Convert.ToString(Sum);
+
     }
 
     protected void btnMinus_Click(object sender, EventArgs e)
